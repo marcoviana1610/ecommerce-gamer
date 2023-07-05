@@ -11,7 +11,7 @@ html{
 :root {
     /* --gray: #2c2c2c; */
     --gray: #222121;
-    --gradient-gray: radial-gradient(#fff, #c7c7c7);
+    --gradient-gray: radial-gradient(#fff, #d6d5d5);
     --red-main: rgb(221, 26, 26); 
     --red-hover: rgb(128, 28, 28);
     --stars-color: #F2C832;
@@ -98,7 +98,9 @@ nav ul li:hover {
 
 
 header{
-    background-image: radial-gradient(#fff, #c7c7c7);
+    /* background-image: radial-gradient(#fff, #c7c7c7); */
+    background-color: #56145cfd;    
+
 }
 
 
@@ -119,11 +121,13 @@ header{
     margin-bottom: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
+    color: #ffffff;
 }
 .header-bottom-side-left p{
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
     font-size: 1rem;
+    color: #fff;
 }
 .header-bottom-side-left button{
     background-color: var(--red-main);
